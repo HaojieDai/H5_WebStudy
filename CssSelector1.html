@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>元素选择器</title>
+        <style>
+            /*作用于拥有相应属性的option标签*/
+            option[value]{color: blue}
+            option[value="lbl"]{color: red}
+            option[disabled]{color: gray}
+        </style>
+    </head>
+    <body>
+        <select name="NBA" id="">
+            <option value="none" disabled selected>--请选择--</option>
+            <option value="qd">迈克·乔丹</option>
+            <option value="lbl">勒布朗·詹姆斯</option>
+            <option value="ane">沙奎尔·奥尼尔</option>
+            <option value="kb">科比·布莱恩特</option>
+            <option value="afs">阿伦·艾弗森</option>
+            <option value="kt">文斯·卡特</option>
+            <option value="md">特雷西·麦克格雷迪</option>
+        </select>
+    </body>
+</html>

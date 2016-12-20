@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    <form action="" method="get" name="qqq">
+        <table>
+            <tr>
+                <td>账号&nbsp;</td>
+                <td><input type="text" placeholder="账户名" name="username" required="required" /></td>
+            </tr>
+            <tr>
+                <td>密码&nbsp;</td>
+                <td><input type="password" name="password" required="required" /></td>
+            </tr>
+            <tr>
+                <td>位置&nbsp;</td>
+                <td>
+                    <select name="location">
+                        <option value="none" selected="selected" disabled="disabled">--请选择--</option>
+                        <optgroup label="中国">
+                            <option value="henan">河南</option>
+                            <option value="hebei">河北</option>
+                            <option value="hunan">湖南</option>
+                            <option value="hubei">湖北</option>
+                        </optgroup><optgroup label="美国">
+                            <option value="lsj">洛杉矶</option>
+                            <option value="zjg">芝加哥</option>
+                            <option value="bsd">波士顿</option>
+                            <option value="klfl">克利夫兰</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>信息&nbsp;</td>
+                <td>
+                    <textarea name="info" cols="21" rows="3" placeholder="输入信息" required="required"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>性别&nbsp;</td>
+                <td>
+                    <input type="radio"name="sex" value="1"/>男
+                    <input type="radio"name="sex" value="2"/>女
+                    <input type="radio"name="sex" value="3" checked="checked"/>保密
+                </td>
+            </tr>
+            <tr>
+                <td>爱好&nbsp;</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="1"/>篮球
+                    <input type="checkbox" name="hobby" value="2"/>足球
+                    <input type="checkbox" name="hobby" value="3"/>羽毛球
+                    <input type="checkbox" name="hobby" value="4"/>乒乓球
+                </td>
+            </tr>
+            <tr>
+                <td>上传</td>
+                <td><input type="file"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="登录"/></td>
+            </tr>
+            <input type="hidden" name="hid1" value="a" />
+            <input type="hidden" name="hid2" value="b" />
+            <input type="hidden" name="hid3" value="c" />
+
+        </table>
+    </form>
+
+    </body>
+</html>

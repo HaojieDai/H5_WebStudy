@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>元素选择器</title>
+        <style>
+            ul{list-style: none;}
+            input:checked+span{background-color: red;}
+            input:checked+span:after{content: "被选中了";}
+        </style>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>你的爱好</legend>
+                <ul>
+                    <li><label><input type="checkbox" name="hobby"/><span>篮球</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>足球</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>乒乓球</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>羽毛球</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>排球</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>游泳</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>跳水</span></label></li>
+                    <li><label><input type="checkbox" name="hobby"/><span>跳高</span></label></li>
+                </ul>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>你喜欢的NBA球星</legend>
+                <ul>
+                    <li><label><input type="radio" name="nba"/><span>科比</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>艾弗森</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>卡特</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>麦蒂</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>詹姆斯</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>杜兰特</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>乐福</span></label></li>
+                    <li><label><input type="radio" name="nba"/><span>哈登</span></label></li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Position</title>
+        <style>
+            *{margin: 0px; padding: 0px;}
+            ul{margin-top: 60px; margin-left: 200px;}
+            ul li{width: 120px; height: 120px;
+                border: 1px  solid #ddd;
+                list-style: none;
+                float: left;
+                margin-right: 15px;
+                position: relative;
+            }
+            .d1{width: 44px; height: 44px; background: url("img/pos1.png");
+                position: absolute;
+                left: 38px;
+                top: -22px;
+            }
+            .d2{width: 44px; height: 44px; background: url("img/pos2.png");
+                position: absolute;
+                left: 38px;
+                top: -22px;
+            }
+            .d3{width: 44px; height: 44px; background: url("img/pos3.png");
+                position: absolute;
+                left: 38px;
+                top: -22px;
+            }
+            .s1{position: absolute;
+                left: 0px;
+                bottom: 0px;
+                font-size: smaller;
+            }
+            .p1{position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+            .p2{position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+            .p3{position: absolute;
+                left: 0px;
+                bottom: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <div class="d1">
+                    <span class="s1">迅雷快鸟</span>
+                </div>
+                <p class="p1">专业下载</p>
+            </li>
+            <li>
+                <div class="d2"></div>
+                <p class="p2">百度云盘</p>
+            </li>
+            <li>
+                <div class="d3"></div>
+                <p class="p3">H5</p>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Float实例</title>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <style>
+            div{background: url("img/baidu00.jpg") no-repeat;
+                width: 1600px;
+                height: 1000px;
+                position: relative;
+            }
+            div::before{content: ""; background: url("img/baidu.png") no-repeat; width: 488px; height: 210px;
+                position: absolute;
+                left: 556px;
+            }
+            div::after{content: ""; background: url("img/baidu02.jpg") no-repeat; width: 192px; height: 168px;
+                position: absolute;
+                right: 50%;
+                bottom: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

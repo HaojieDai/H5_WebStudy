@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>兄弟选择器</title>
+        <style>
+            ul li{display: inline-block; list-style: none; width: 60px; text-align: center}
+            ul li:hover{background-color: #fb7299; color: #ffffff}
+            ul li:active{background-color: aqua;}
+            a{text-decoration: none; width: 150px; text-align: center; display: inline-block;}
+            a:link{color: #fb7299;}
+            a:visited{color: gray;}
+            a:hover{color: yellow; font-size: 20px;}
+            a:active{color: blue; font-size: 20px;}
+            p:not(#p1){color: red;}
+            ol li{display: inline-block; list-style:none; text-align: center; width: 60px;}
+            ol li:first-child{color: red;}
+            ol li:last-child{color: gray;}
+            span:first-child{color: red;}
+            span:last-child{background-color: aqua;}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>科比</li>
+            <li>艾弗森</li>
+            <li>卡特</li>
+            <li>麦蒂</li>
+        </ul>
+        <br />
+        <a href="#">勒布朗·詹姆斯</a>
+        <br />
+        <p class="p1" id="p1">杜兰特</p>
+        <p class="p2">哈登</p>
+        <p class="p3">威斯布鲁克</p>
+        <br />
+        <ol>
+            <li>首页</li>
+            <li>二页</li>
+            <li>三页</li>
+        </ol>
+        <div>
+            <span>段落1</span>
+            <span>段落2</span>
+            <span>段落3</span>
+        </div>
+    </body>
+</html>

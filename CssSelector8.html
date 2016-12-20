@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>元素选择器</title>
+        <style>
+            ul li{display: inline-block; width: 100px; text-align: center;}
+            ul li:nth-child(2){color: red; font-size: 26px;}
+            ul:before{content: "before"; color: blue;}
+            ul:after{content: "after"; color: blue;}
+            div:before{content:"乔丹";}
+            div:after{content:"詹姆斯";}
+            div{background: url("img/05.jpg") no-repeat; width: 100px; height: 200px; text-align: center;}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>科比</li>
+            <li>艾弗森</li>
+            <li>卡特</li>
+            <li>麦蒂</li>
+        </ul>
+        <div>
+            <p>韦德</p>
+            <p>波什</p>
+            <p>莱利</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>百度一下，你就知道</title>
+        <link rel="stylesheet" href="css/reset.css  "/>
+        <style>
+            .menu{float: right; margin-top: 20px;}
+            ul li{float: left; list-style: none;}
+            ul li a{text-decoration: underline; color: black; margin-left: 10px; margin-right: 10px;
+                font-weight: 700;
+                color: #333;
+                line-height: 24px;
+                font-size: 13px;
+            }
+            ul li span{background: rgb(51,136,255); color: white; margin-left: 10px; margin-right: 10px;
+                width: 60px;
+                height: 24px;
+                padding: 5px 3px 5px 3px;
+                font-size: 12px;
+            }
+            .main{clear: both; height: 400px; padding: 40px; position: relative;}
+            .edit{width: 540px; height: 31px; border: 1px solid gray; float: left;}
+            .edit:active{border: 1px solid rgb(51,136,255);}
+            .baiduBtn{width: 100px; height: 35px; float: left; line-height: 35px; text-align: center; background: rgb(51,136,255); color: white;}
+            .clear{clear: both; width: 0px; height: 0px;}
+            .main1{position: absolute; width: 642px; height: 35px; left: 362px; top:180px;}
+            .camera{float: left; position: absolute; right: 110px; top:7px;}
+            .footer{position: relative;}
+            .qr1{float:left; position: absolute;
+                left: 362px;
+            }
+            .mobil{float: left; width: 90px; height: 60px; position: absolute;
+                left: 422px;
+            }
+            .qr2{float: left; position: absolute;
+                left: 513px;
+            }
+            .nuomi{float: left; width: 90px; height: 60px; position: absolute;
+                left: 573px;
+            }
+            .detail{float: left; width: 335px; height: 60px; position: absolute;
+                left: 664px;
+            }
+            .s1{position: absolute; top: 10px; left: 10px; color: #333333;}
+            .s2{position: absolute; bottom: 10px;  left: 10px; color: rgb(153,153,153);}
+            .a1{float:left; font-size: 10px; color: rgb(153,153,153); text-decoration: underline; margin-right: 25px;}
+            .a2{margin-right: 0px;}
+            .a3{margin-top: 5px;}
+            .p1{text-decoration: none; margin-top: 5px;}
+            .i1{background: url("img/icp.png") no-repeat; float: left; width: 13px; height: 19px; margin-top: 5px; margin-left: 5px;}
+            .i2{background: url("img/ga.png") no-repeat; float: left; width: 13px; height: 19px; margin-top: 5px; margin-right: 5px;}
+            .d1{float: left;}
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <li><a href="#">糯米</a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">hao123</a></li>
+                <li><a href="#">地图</a></li>
+                <li><a href="#">视频</a></li>
+                <li><a href="#">贴吧</a></li>
+                <li><a href="#" style="font-weight: 500">登录</a></li>
+                <li><a href="#" style="font-weight: 500">设置</a></li>
+                <li><span>更多产品</span></li>
+            </ul>
+        </div>
+
+    <div class="main">
+        <div align="center">
+            <img src="img/baidu_logo.png" width="270px"; height="129px"; />
+        </div>
+        <form action="">
+            <div class="main1">
+                <input type="text" class="edit"/>
+                <span class="baiduBtn">百度一下</span>
+                <img src="img/baidu_camera.png" alt="" class="camera"/>
+            </div>
+            <div class="clear"></div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <img src="img/qr1.png" alt="" class="qr1"/>
+        <div class="mobil">
+            <span class="s1">手机百度</span><br />
+            <span class="s2">快人一步</span>
+        </div>
+        <img src="img/qr2.png" alt="" class="qr2"/>
+        <div class="nuomi">
+            <span class="s1">百度糯米</span><br />
+            <span class="s2">一元大餐</span>
+        </div>
+        <div class="detail">
+            <a href="#" class="a1">把百度设为主页</a>
+            <a href="#" class="a1">关于百度</a>
+            <a href="#" class="a1">About  Baidu</a>
+            <a href="#" class="a1 a2">百度推广</a>
+            <div class="d1">
+                <span class="a1 a2 p1">©2016 Baidu 使用百度前必读 意见反馈 京ICP证030173号</span>
+                <i class="i1"></i>
+            </div>
+            <div class="d1">
+                <i class="i2"></i>
+                <a href="#" class="a1 a2 a3">京公网安备11000002000001号</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    </body>
+</html>
